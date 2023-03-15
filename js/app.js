@@ -9,21 +9,35 @@ console.log(item_two_name);
 console.log(item_two_price);
 
 
-let user_points = 75;
+let user_points = 95;
+let is_member = true;
+let user_name = "test";
+
+if(is_member === true && user_points >= 90){
+
+    console.log("USER SPECIAL MESSAGE");
+
+}
+
+if(is_member === true && user_points >= 10 && user_points < 90) 
+
+console.log("welcome");
+
+if(is_member === false || user_points < 10){
+
+    console.log("You are not welcome here, leave.");
+
+}
 
 
+if(user_name === "Alex"){
 
-
-if (user_points >=75){
-
-console.log("Congratulations! You win NOTHING!")
-
-}else if(user_points <=30){
-
-console.log("holy crap you suck")
+console.log("welcome, nerd");
 
 }else{
 
-console.log("get more points nerd")
+    console.log("You are a normal user");
 
 }
+
+
