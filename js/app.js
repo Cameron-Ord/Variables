@@ -7,3 +7,19 @@ console.log(item_one_name);
 console.log(item_one_price);
 console.log(item_two_name);
 console.log(item_two_price);
+
+
+let user_points = 76;
+
+
+if (user_points <75){
+
+console.log("You do not have enough points")
+
+}
+
+if (user_points >=75){
+
+console.log("Congratulations! You win NOTHING!")
+
+}
