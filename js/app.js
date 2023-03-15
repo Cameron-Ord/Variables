@@ -9,17 +9,21 @@ console.log(item_two_name);
 console.log(item_two_price);
 
 
-let user_points = 76;
+let user_points = 75;
 
 
-if (user_points <75){
 
-console.log("You do not have enough points")
-
-}
 
 if (user_points >=75){
 
 console.log("Congratulations! You win NOTHING!")
+
+}else if(user_points <=30){
+
+console.log("holy crap you suck")
+
+}else{
+
+console.log("get more points nerd")
 
 }
